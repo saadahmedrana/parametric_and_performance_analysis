@@ -1,0 +1,114 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1570869103" file="C:\Users\huzih\Downloads\Mech Files\FYP APP CODES\FYP\Parametric Window\ParaThrust.prj" location="C:\Users\huzih\Downloads\Mech Files\FYP APP CODES\FYP\Parametric Window" name="ParaThrust" target="target.mlapps" target-name="Package App">
+    <param.appname>ParaThrust</param.appname>
+    <param.authnamewatermark>Saad Ahmed Rana &amp; Syed Huzaifah Hassan</param.authnamewatermark>
+    <param.email>sadisfaction570@gmail.com , syedhuzaifahhassan2000@gmail.com</param.email>
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\ParaThrust_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\ParaThrust_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\ParaThrust_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\ParaThrust_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>A tool that is capable of assisting the user in the analytical selection and testing of turbojet engines</param.summary>
+    <param.description>This tool can perform:
+1) Single Cycle Analysis 
+2) Parametric Analysis
+3) On-Design Perfromance Analysis
+
+Coming Soon:
+Off-Design Performance Analysis</param.description>
+    <param.screenshot>C:\Users\huzih\AppData\Local\Temp\tp4bdfec43_62e5_46cf_8a80_d2b0c7461506.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\huzih\Downloads\3D MODELLING\ice ENGINE\PARAThrust</param.output>
+    <param.guid>4691737e-d22a-4888-917e-df5fb0a59336</param.guid>
+    <unset>
+      <param.company />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MAINPAGE.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\huzih\OneDrive\Desktop\milad-fakurian-UiiHVEyxtyA-unsplash.jpg</file>
+      <file>C:\Users\huzih\OneDrive\Desktop\PBS-TJ100P-UAV-Turbojet-Engine-scaled-transformed.png</file>
+      <file>C:\Users\huzih\OneDrive\Desktop\skynews-typhoon-raf-file-image_5937093-transformed.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\huzih\Downloads\3D MODELLING\ice ENGINE" name="PARAThrust" optional="false">C:\Users\huzih\Downloads\3D MODELLING\ice ENGINE\PARAThrust</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\Polyspace\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
